@@ -15,4 +15,5 @@ void main() {
   print(teamName.length);
   print(teamName.isEmpty);
   print(teamName.isNotEmpty);
+  print(teamName.hashCode);
 }
