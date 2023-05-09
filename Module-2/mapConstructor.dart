@@ -1,10 +1,9 @@
 void main() {
-  var devInfo = {
-    "name": "Zahed Hasan",
-    "dept": "Engineering",
-    "company": "Syscomatic Technologies",
-    "salary": "Null"
-  };
+  var devInfo = new Map();
+
+  devInfo["namz"] = "Zahed Hasan";
+  devInfo["role"] = "CTO";
+  devInfo["salary"] = "null";
 
   devInfo["location"] = "Dhanmondi";
 
