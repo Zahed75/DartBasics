@@ -9,7 +9,7 @@ void main() {
 
   for (var oneProduct in productList) {
     var item =
-        "ProductName is ${oneProduct['name']} and price is =${oneProduct['price']}";
+        "ProductName is ${oneProduct['name']} and price is =${oneProduct['price']} Taka";
 
     // print(oneProduct['price']);
     print(item);
